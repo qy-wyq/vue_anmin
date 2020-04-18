@@ -10,11 +10,11 @@ const routes = [
     name: "Home",
     component: Home
   },
-  {
-    path: "/",
-    // 
-    redirect:"login"
-  },
+  // {
+  //   path: "/",
+  //   // 重定向
+  //   redirect:"login"
+  // },
   {
     path: "/login",
     name: "login",
