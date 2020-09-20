@@ -69,8 +69,8 @@ const routes = [
     iconCls: 'el-icon-s-flag',
     leaf: false,
     children: [
-      { path: '/tabs', component: login, name: 'Tabs', iconCls: 'el-icon-star-on' },
-      { path: '/rate', component: login, name: 'Rate', iconCls: 'el-icon-star-on' }
+      { path: '/tabs', component: login, name: '导航一.0', iconCls: 'el-icon-star-on' },
+      { path: '/rate', component: login, name: '导航一.1', iconCls: 'el-icon-star-on' }
     ]
   },
   {

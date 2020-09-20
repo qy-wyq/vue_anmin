@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <el-container>
-      <el-header>Header</el-header>
+      <!-- 头部 -->
+      <el-header>{{Header}}</el-header>
+      <!-- 导航栏 -->
       <el-container>
         <el-aside width="200px">
             <el-row class="tac">
@@ -35,6 +37,7 @@
               </el-col>
             </el-row>
         </el-aside>
+        <!-- 内容 -->
         <el-main>
           <el-row>
             <el-col :span="24">
@@ -52,7 +55,12 @@
  
 <script>
 export default {
-  name: 'App',
+  data() {
+      return {
+        Header:'渭南师范学院',
+        menuItems:[],
+      }
+    },
   methods: {
       handleOpen(key, keyPath) {
         //console.log(key, keyPath);
